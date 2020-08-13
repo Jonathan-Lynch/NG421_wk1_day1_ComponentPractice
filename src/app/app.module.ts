@@ -8,6 +8,7 @@ import { MessagePreviewComponent } from './message-preview/message-preview.compo
 import { TaskItemComponent } from './task-item/task-item.component';
 import { TopNavComponent } from './top-nav/top-nav.component';
 import { SideNavComponent } from './side-nav/side-nav.component';
+import { CommentsComponent } from './comments/comments.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { SideNavComponent } from './side-nav/side-nav.component';
     MessagePreviewComponent,
     TaskItemComponent,
     TopNavComponent,
-    SideNavComponent
+    SideNavComponent,
+    CommentsComponent
   ],
   imports: [
     BrowserModule
